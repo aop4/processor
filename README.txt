@@ -2,7 +2,8 @@ Andrew Puglionesi
 aop4@pitt.edu
 
 As far as I know, all the instructions in the JrMIPS programmer's reference manual work correctly when
-run in this processor. That means the following instructions, to the best of my knowledge, work correctly: and, nor, addi, addui, add, sub, div, mul, sllv, srlv, bx, bz, bp, bn, lw, sw, li, jal, jr, 
+run in this processor. That means the following instructions, to the best of my knowledge, work correctly: 
+and, nor, addi, addui, add, sub, div, mul, sllv, srlv, bx, bz, bp, bn, lw, sw, li, jal, jr, 
 j, put, and halt.
 One potential exception is the mul instruction. I've found that when dealing with negative numbers,
 it sometimes has strange values for the upper 16 bits of the product. However, this is a direct 
